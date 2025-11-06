@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Fjalla+One&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="JS/script.js"></script>
+
+
+  <title>Portfolio</title>
+
+
+</head>
+
+<body>
+
+  <!-- Navbar container (محتفظ به كما هو) -->
+  <div class="container-fluid p-0">
+    <div class="container w-100" id="topnav">
+      <nav class="navbar navbar-expand">
+        <div class="container d-flex justify-content-center flex-wrap">
+          <div class="navbar-nav gap-5 text-center">
+            <a class="nav-link" href="#About">ABOUT</a>
+            <a class="nav-link" href="#Projects">PROJECTS</a>
+            <a class="nav-link" href="#Services">SERVICES</a>
+            <a class="nav-link" href="#Contact">CONTACT</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <hr class="m-0">
+  </div>
+
+  <!-- Container 1 -->
+  <div class="container full-page">
+    <div class="card mb-3 w-100">
+      <div class="row g-0 align-items-center">
+
+        <div class="col-md-8">
+          <div class="card-body">
+            <h6 class="card-title mb-3 text-body-secondary">Hi, my name is Mohamed Fathy</h6>
+            <h3 class="card-text">
+              I’m a Flutter developer who helps tech startups and software companies build high-performance, scalable
+              mobile applications using Flutter and modern backend technologies, delivering fast, reliable, and visually
+              stunning digital experiences.
+            </h3>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <img src="icons/m0z-removebg-preview.png" alt="Taqeyy Eldeen">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Container 2 (About) -->
+  <div class="container full-page" id="About">
+    <div class="card mb-3 w-75">
+      <div class="row g-0 justify-content-center">
+
+        <div class="col-12">
+          <div class="card-body">
+            <h1 class="card-title text-center mb-4 text-body-secondary">About</h1>
+            <h5 class="card-text" id="abt">
+              I am a Flutter Developer with a strong focus on building high-performance, reliable, and visually engaging
+              mobile applications. With 1 year of experience and a proven record of 5 successful projects, I specialize
+              in crafting cross-platform apps that deliver seamless user experiences and meet diverse business goals.
+              <br><br>
+              My approach emphasizes clean architecture, efficient state management, and performance optimization. I am
+              committed to developing robust, scalable mobile solutions, creating intuitive UIs, and integrating secure
+              backends to ensure long-term success and satisfaction for both users and organizations.
+            </h5>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Containers إضافية -->
+  <div class="container full-page d-flex justify-content-center align-items-center" id="skills-section">
+    <div class="row g-4 justify-content-center">
+      <h1 class="card-title mb-3 text-body-secondary text-center">Skills</h1>
+
+      <!-- Card 1: Frontend
+      <div class="col-md-4">
+        <div class="card">
+          <img src="icons/frontend.png" class="card-img-top rounded" alt="Frontend">
+          <div class="collapse collapse-horizontal" id="collapse1">
+            <div class="card card-body" style="width: 400px;">
+              <h5 class="card-title">Frontend</h5>
+              <p class="card-text">
+                <span class="badge badge-gradient m-1">HTML5</span>
+                <span class="badge badge-gradient m-1">CSS</span>
+                <span class="badge badge-gradient m-1">JavaScript</span>
+                <span class="badge badge-gradient m-1">Bootstrap</span>
+                <span class="badge badge-gradient m-1">jQuery</span>
+                <span class="badge badge-gradient m-1">Front-End Development</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Card 2: Backend -->
+<div class="col-md-4">
+  <div class="card">
+    <img src="icons//backend.png" class="card-img-top rounded" alt="Flutter">
+    <div class="collapse collapse-horizontal" id="collapse2">
+      <div class="card card-body" style="width: 400px;">
+        <h5 class="card-title">Flutter Development</h5>
+        <p class="card-text">
+          <span class="badge badge-gradient m-1">Flutter</span>
+          <span class="badge badge-gradient m-1">Dart</span>
+          <span class="badge badge-gradient m-1">Firebase</span>
+          <span class="badge badge-gradient m-1">RESTful APIs</span>
+          <span class="badge badge-gradient m-1">Bloc</span>
+          <span class="badge badge-gradient m-1">Provider</span>
+          <span class="badge badge-gradient m-1">GetX</span>
+          <span class="badge badge-gradient m-1">State Management</span>
+          <span class="badge badge-gradient m-1">UI/UX Design</span>
+          <span class="badge badge-gradient m-1">Cross-Platform Development</span>
+          <span class="badge badge-gradient m-1">Mobile App Development</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <!-- Card 3: Cloud
+      <div class="col-md-4">
+        <div class="card">
+          <img src="icons/cloud.png" class="card-img-top rounded" alt="Cloud">
+          <div class="collapse collapse-horizontal" id="collapse3">
+            <div class="card card-body" style="width: 400px;">
+              <h5 class="card-title">Cloud</h5>
+              <p class="card-text">
+                <span class="badge badge-gradient m-1">AWS</span>
+                <span class="badge badge-gradient m-1">Amazon EC2</span>
+                <span class="badge badge-gradient m-1">Amazon S3</span>
+                <span class="badge badge-gradient m-1">Cloud Computing</span>
+                <span class="badge badge-gradient m-1">Cloud Development</span>
+                <span class="badge badge-gradient m-1">Cloud Infrastructure</span>
+                <span class="badge badge-gradient m-1">Cloud Architecture</span>
+                <span class="badge badge-gradient m-1">Cloud Services Management</span>
+                <span class="badge badge-gradient m-1">Docker Products</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+    </div>
+  </div>
+
+
+
+
+  </div>
+  <div class="container full-page" id="Education">
+    <h1 class="card-title mb-4 text-center text-body-secondary ">Education</h1>
+    <div class="card mb-3 w-100 shadow-lg p-4" style="border-radius: 15px;">
+
+      <div class="row g-0 align-items-center">
+
+        <!-- Text Column -->
+        <div class="col-md-8">
+          <div class="card-body">
+            <h3 class="card-text" style="font-size: 1.2rem; line-height: 1.6; font-weight: 500; color: #212529;">
+              <strong>Alexandria University</strong><br>
+              Faculty of Engineering<br>
+              Bachelor of Engineering<br>
+              Expected Graduation: 2028<br>
+
+            </h3>
+          </div>
+        </div>
+
+        <!-- Image Column -->
+        <div class="col-md-4 text-center">
+          <img src="icons/au-logo.png" alt="Alexandria University Logo" class="img-fluid">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Work Experience Section -->
+<div class="container full-page" id="WorkExperience">
+
+  <!-- Projects Section -->
+  <div class="container full-page" id="Projects">
+    <h1 class="text-center mb-4 text-body-secondary">Projects</h1>
+
+    <!-- Project 1: Task Management App -->
+    <div class="card mb-4 shadow-lg p-4" style="border-radius: 15px;">
+      <div class="row g-0 align-items-start">
+
+        <div class="col-md-12">
+          <div class="card-body">
+            <h3 class="card-title mb-2"><strong>Task Management App ✅</strong></h3>
+            <p class="card-text" style="line-height: 1.6; font-size: 1rem; color: #212529;">
+              The Task Management App is a cross-platform mobile application built with <strong>Flutter</strong> and
+              <strong>Firebase</strong>, designed to help users efficiently organize, track, and complete their daily
+              tasks. <br><br>
+              <strong>Challenge:</strong> Create a smooth, real-time task management experience with cloud synchronization
+              and offline support. <br><br>
+              <strong>Solution:</strong> Implemented Firebase Authentication and Firestore for secure, real-time data
+              handling. Designed a responsive UI using Flutter widgets and applied <strong>Bloc</strong> for structured
+              state management and scalability.
+            </p>
+            <p class="card-text"><strong>Features:</strong></p>
+            <ul style="line-height: 1.6;">
+              <li>Add, edit, and delete daily tasks with instant updates.</li>
+              <li>Firebase Auth for user sign-in and data isolation.</li>
+              <li>Cloud Firestore integration for real-time synchronization.</li>
+              <li>Modern UI with smooth animations and responsive design.</li>
+            </ul>
+            <p class="card-text"><strong>Tech Stack:</strong> Flutter, Dart, Firebase Auth, Cloud Firestore, Bloc, Provider.</p>
+            <p class="card-text"><strong>Date:</strong> Jan 2025</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Project 2: Restaurant Menu & Ordering App -->
+    <div class="card mb-4 shadow-lg p-4" style="border-radius: 15px;">
+      <div class="row g-0 align-items-start">
+
+        <div class="col-md-12">
+          <div class="card-body">
+            <h3 class="card-title mb-2"><strong>Restaurant Menu & Ordering App 🍽️</strong></h3>
+            <p class="card-text" style="line-height: 1.6; font-size: 1rem; color: #212529;">
+              The Restaurant Menu & Ordering App is a simple yet elegant Flutter application that allows users to browse
+              restaurant menus, add items to their cart, and place orders effortlessly. <br><br>
+              <strong>Challenge:</strong> Design an intuitive and interactive UI for menu browsing and cart management. <br><br>
+              <strong>Solution:</strong> Built a dynamic menu system with categorized items, integrated a local cart using
+              <strong>Provider</strong> for state management, and implemented smooth UI transitions for a pleasant user
+              experience.
+            </p>
+            <p class="card-text"><strong>Features:</strong></p>
+            <ul style="line-height: 1.6;">
+              <li>Interactive menu with product images, details, and pricing.</li>
+              <li>Cart functionality with add, remove, and update options.</li>
+              <li>Checkout screen with order summary and confirmation.</li>
+              <li>Clean and modern Flutter UI with responsive layouts.</li>
+            </ul>
+            <p class="card-text"><strong>Tech Stack:</strong> Flutter, Dart, Provider, Local Storage, Material Design.</p>
+            <p class="card-text"><strong>Date:</strong> Mar 2025</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Project 3: Weather Forecast App -->
+    <div class="card mb-4 shadow-lg p-4" style="border-radius: 15px;">
+      <div class="row g-0 align-items-start">
+
+        <div class="col-md-12">
+          <div class="card-body">
+            <h3 class="card-title mb-2"><strong>Weather Forecast App ☁️</strong></h3>
+            <p class="card-text" style="line-height: 1.6; font-size: 1rem; color: #212529;">
+              The Weather Forecast App provides real-time weather updates using a public weather API, displaying accurate
+              forecasts with an attractive and minimal UI. <br><br>
+              <strong>Challenge:</strong> Integrate a public API and display real-time weather data in a visually engaging way. <br><br>
+              <strong>Solution:</strong> Used the <strong>OpenWeatherMap API</strong> for data fetching, implemented 
+              asynchronous requests with <strong>HTTP</strong> package, and designed a modern Flutter UI with gradient
+              backgrounds and icons representing weather conditions.
+            </p>
+            <p class="card-text"><strong>Features:</strong></p>
+            <ul style="line-height: 1.6;">
+              <li>Real-time weather updates for any city.</li>
+              <li>Temperature, humidity, and wind speed display.</li>
+              <li>Dynamic UI based on weather conditions.</li>
+              <li>Fast and responsive interface built with Flutter.</li>
+            </ul>
+            <p class="card-text"><strong>Tech Stack:</strong> Flutter, Dart, HTTP, OpenWeatherMap API, JSON Parsing.</p>
+            <p class="card-text"><strong>Date:</strong> Apr 2025</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+  <!-- Container: Personal Values -->
+  <div class="container full-page" id="PersonalValues">
+    <h1 class="card-title mb-4 text-center text-body-secondary">Personal Values</h1>
+    <div class="row g-4 justify-content-center">
+
+      <!-- Religion
+    <div class="col-md-3">
+      <div class="card shadow-sm h-100 text-center p-3">
+        <h4 class="mb-2">Religion</h4>
+        <p style="font-size: 0.95rem; line-height: 1.4;">
+          Religion helps in finding answers to the meaning of life. Devout individuals often participate actively in
+          community life, maintain traditions, follow clear rules, and defend their beliefs. Regardless of personal
+          faith, respect and tolerance for different beliefs are essential.
+        </p>
+      </div>
+    </div> -->
+
+      <!-- Curiosity -->
+      <div class="col-md-3">
+        <div class="card shadow-sm h-100 text-center p-3">
+          <h4 class="mb-2">Curiosity</h4>
+          <p style="font-size: 0.95rem; line-height: 1.4;">
+            Curiosity drives the pursuit of knowledge and understanding. People who value curiosity explore deeply,
+            ask questions, and seek answers to intriguing problems while respecting others' privacy. It is a key trait
+            for growth and wisdom.
+          </p>
+        </div>
+      </div>
+
+      <!-- Peace -->
+      <div class="col-md-3">
+        <div class="card shadow-sm h-100 text-center p-3">
+          <h4 class="mb-2">Peace</h4>
+          <p style="font-size: 0.95rem; line-height: 1.4;">
+            People who value peace avoid unnecessary conflicts and engage in disputes only to resolve them. They show
+            openness, pursue dialogue, and are willing to make compromises to maintain harmony, while considering
+            whether the measures taken are justified.
+          </p>
+        </div>
+      </div>
+
+      <!-- Trust -->
+      <div class="col-md-3">
+        <div class="card shadow-sm h-100 text-center p-3">
+          <h4 class="mb-2">Trust</h4>
+          <p style="font-size: 0.95rem; line-height: 1.4;">
+            Trust is the foundation of strong relationships. People rely on family, friends, partners, and institutions.
+            Building and maintaining trust requires discernment, as not everyone has sincere intentions. It is key for
+            cooperation and mutual respect.
+          </p>
+        </div>
+      </div>
+
+      <!-- Respect -->
+      <div class="col-md-3">
+        <div class="card shadow-sm h-100 text-center p-3">
+          <h4 class="mb-2">Respect</h4>
+          <p style="font-size: 0.95rem; line-height: 1.4;">
+            Respect acknowledges others’ achievements and character. It motivates learning from role models and fosters
+            personal growth. Genuine respect comes from contributing positively to others’ lives rather than seeking
+            approval or impressing them.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Container: Services -->
+<div class="container full-page" id="Services">
+  <h1 class="card-title mb-4 text-center text-body-secondary">Services</h1>
+
+  <div class="row g-4 justify-content-center">
+
+    <!-- Service 1: Mobile App Development -->
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100 text-center p-4">
+        <img src="icons/frontend.png" alt="Mobile App Development" class="img-fluid mb-3"
+          style="height:180px; object-fit:contain;">
+        <h4 class="mb-3">Mobile App Development</h4>
+        <p style="font-size: 1rem; line-height: 1.6;">
+          I build cross-platform mobile applications using <strong>Flutter</strong> and <strong>Dart</strong> that
+          deliver a native-like experience on both Android and iOS. My focus is on performance, scalability, and clean
+          architecture — ensuring apps are smooth, responsive, and easy to maintain.
+        </p>
+      </div>
+    </div>
+
+    <!-- Service 2: UI/UX Design & Animation -->
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100 text-center p-4">
+        <img src="icons/backend.png" alt="UI/UX Design" class="img-fluid mb-3"
+          style="height:180px; object-fit:contain;">
+        <h4 class="mb-3">UI/UX Design & Animation</h4>
+        <p style="font-size: 1rem; line-height: 1.6;">
+          I design beautiful, user-friendly interfaces with a strong focus on <strong>usability</strong> and
+          <strong>visual appeal</strong>. Using Flutter’s rich widget library and animation tools, I create elegant and
+          engaging experiences that make your app stand out.
+        </p>
+      </div>
+    </div>
+
+    <!-- Service 3: Firebase & API Integration -->
+    <div class="col-md-4">
+      <div class="card shadow-sm h-100 text-center p-4">
+        <img src="icons/cloud.png" alt="Firebase Integration" class="img-fluid mb-3"
+          style="height:180px; object-fit:contain;">
+        <h4 class="mb-3">Firebase & API Integration</h4>
+        <p style="font-size: 1rem; line-height: 1.6;">
+          I integrate powerful backend services using <strong>Firebase</strong> and <strong>RESTful APIs</strong>,
+          enabling real-time data synchronization, authentication, and secure cloud storage. My focus is on reliability
+          and scalability to support growing user bases effortlessly.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  <!-- Container: Call to Action -->
+<div class="container full-page d-flex flex-column justify-content-center align-items-center text-center"
+  id="ContactCTA">
+  <h1 class="mb-4 text-body-secondary" style="font-size: 2.5rem; font-weight: 700;">
+    Let’s Build Your Next Mobile Experience
+  </h1>
+  <p class="mb-4" style="font-size: 1.2rem; line-height: 1.8; max-width: 700px;">
+    I’m passionate about creating smooth, beautiful, and high-performance mobile apps with Flutter. 
+    Whether you have an idea for a new startup, need to enhance an existing app, or just want to discuss 
+    mobile development — I’d love to collaborate and bring your vision to life.
+  </p>
+  <a href="#Contact" class="btn btn-lg gradient-btn" style="font-weight: 600; padding: 0.8em 2em;">
+    Get in Touch
+  </a>
+</div>
+
+  <!-- Footer -->
+
+
+  <footer class="footer bg-light text-dark py-5" id="Contact">
+    <div class="container">
+      <div class="row text-center text-md-start">
+
+        <!-- Logo / Name -->
+        <div class="col-md-4 mb-4">
+          <h4 class="fw-bold">Mohamed Fathy</h4>
+          <p>Flutter Developer</p>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-semibold mb-3">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#About" class="text-decoration-none text-dark">About</a></li>
+            <li><a href="#skills-section" class="text-decoration-none text-dark">Skills</a></li>
+            <li><a href="#Education" class="text-decoration-none text-dark">Education</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Media / Contact -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-semibold mb-3">Connect with Me</h5>
+          <a href="https://github.com/mOhmed-56" class="text-dark me-3" target="_blank"><i class="bi bi-github"></i>
+            GitHub</a>
+          <a href="https://www.linkedin.com/in/mohamed-fathy-6595682b6/" class="text-dark me-3" target="_blank"><i
+              class="bi bi-linkedin"></i> LinkedIn</a>
+          <a href="mailto:mohamed60.fathy@gmail.com" class="text-dark" target="_blank"><i class="bi bi-envelope"></i>
+            Email</a>
+
+        </div>
+
+      </div>
+
+      <hr>
+
+      <!-- Copyright -->
+      <div class="text-center mt-3">
+        <p class="mb-0">&copy; 2025 All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
